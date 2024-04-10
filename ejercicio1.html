@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100px;
+            padding-top: 20px;
+        }
+
+        .box {
+            width: 500px; 
+            height: 100px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top-box {
+            width: 1350px;
+            height: 100px;
+            background-color: #78047e;
+            border: 1px solid #78047e;
+            color: white;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .side-box {
+            width: calc(33.33% - 20px); 
+            background-color: #45e6ff;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-box">
+            <h1>Sample felxbox example</h1>
+        </div>
+        
+        <div class="flex-container">
+            <div class="side-box">
+                <h2>First article</h2>
+                <p>
+                    Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack 
+                    portiand everyday carry viny! typerwriter. Tacos PBR&B pork belly, everyday carry ennui 
+                    pickled sriacha normcore hastag polaroid sigle-origin coffee cold-pressed. PBR&B tattoed 
+                    trust fund twee, leggins salvia iPhone photo booth healt goth gastropub hammock.
+                </p>
+            </div>
+            <div class="side-box">
+                <h2>Second article</h2>
+                <p>
+                    Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack 
+                    portiand everyday carry viny! typerwriter. Tacos PBR&B pork belly, everyday carry ennui 
+                    pickled sriacha normcore hastag polaroid sigle-origin coffee cold-pressed. PBR&B tattoed 
+                    trust fund twee, leggins salvia iPhone photo booth healt goth gastropub hammock.
+                </p>
+            </div>
+            <div class="side-box">
+                <h2>Third article</h2>
+                <p>
+                    Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack 
+                    portiand everyday carry viny! typerwriter. Tacos PBR&B pork belly, everyday carry ennui 
+                    pickled sriacha normcore hastag polaroid sigle-origin coffee cold-pressed. PBR&B tattoed 
+                    trust fund twee, leggins salvia iPhone photo booth healt goth gastropub hammock.
+                </p>
+                <p>
+                    Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch 
+                    paleo 8-bit. Intelligentsia umami wayfarers pickled, asymetrical kombucha letterpress kitsch 
+                    leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole 
+                    heirloom art party.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
